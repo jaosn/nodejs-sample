@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('/sample', function(request, response) {
-  response.render('pages/index');
+  response.render('pages/sample');
 });
 
 app.listen(app.get('port'), function() {
